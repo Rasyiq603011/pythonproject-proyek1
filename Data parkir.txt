@@ -1,38 +1,78 @@
-======================= Data Parkir Kendaraan ======================
-
-Data Parkir
-Tipe Kendaraan : Mobil
-Waktu Masuk    : 11.30
-Waktu Keluar   : 12.00
-Biaya parkir   : 12000
-
-Data Parkir
-Tipe Kendaraan : Mobil
-Waktu Masuk    : 11.30
-Waktu Keluar   : 12.00
-Biaya parkir   : 12000
-
-Data Parkir
-Tipe Kendaraan : Mobil
-Waktu Masuk    : 11.30
-Waktu Keluar   : 12.00
-Biaya parkir   : 12000
-
-Data Parkir
-Tipe Kendaraan : Mobil
-Waktu Masuk    : 11.30
-Waktu Keluar   : 12.00
-Biaya parkir   : 12000
-
-Data Parkir
-Tipe Kendaraan : Mobil
-Waktu Masuk    : 11.30
-Waktu Keluar   : 12.00
-Biaya parkir   : 12000
-
-Data Parkir
-Tipe Kendaraan : Mobil
-Nomor Polisi   : 12 dfg 12
+Data Parkir 1
+Tipe Kendaraan : motor
+Nomor Polisi   : D 1234 FF
 Lama Parkir    : 12
-Biaya parkir   : 12.000
+Biaya parkir   : 29500
+
+Data Parkir 2
+Tipe Kendaraan : motor
+Nomor Polisi   : D 4321 DD
+Lama Parkir    : 12 jam
+Biaya parkir   : Rp.29500
+
+Data Parkir 3
+Tipe Kendaraan : motor
+Nomor Polisi   : F 1234 SS
+Lama Parkir    : 12 jam
+Biaya parkir   : Rp.29500
+
+Data Parkir 4
+Tipe Kendaraan : truk
+Nomor Polisi   : S 3142 AA
+Lama Parkir    : 12 jam
+Biaya parkir   : Rp.89500
+
+Data Parkir 5
+Tipe Kendaraan : mobil
+Nomor Polisi   : W 2443 SSS
+Lama Parkir    : 13 jam
+Biaya parkir   : Rp.71000
+
+Data Parkir 6
+Tipe Kendaraan : motor
+Nomor Polisi   : S 4244 SS
+Lama Parkir    : 12 jam
+Biaya parkir   : Rp.29500
+
+Data Parkir 7
+Tipe Kendaraan : truk
+Nomor Polisi   : S 124 t
+Lama Parkir    : 12 jam
+Biaya parkir   : Rp.89500
+
+Data Parkir 8
+Tipe Kendaraan : motor
+Nomor Polisi   : A 2578
+Lama Parkir    : 32 jam
+Biaya parkir   : Rp.79500
+
+Data Parkir 9
+Tipe Kendaraan : motor
+Nomor Polisi   : X 2143 A
+Lama Parkir    : 22 jam
+Biaya parkir   : Rp.54500
+
+Data Parkir 10
+Tipe Kendaraan : motor
+Nomor Polisi   : D 5243 h
+Lama Parkir    : 21 jam
+Biaya parkir   : Rp.52000
+
+Data Parkir 11
+Tipe Kendaraan : motor
+Nomor Polisi   : S 5643 AA
+Lama Parkir    : 21 jam
+Biaya parkir   : Rp.52000
+
+Data Parkir 12
+Tipe Kendaraan : motor
+Nomor Polisi   : D 2579 AAA
+Lama Parkir    : 43 jam
+Biaya parkir   : Rp.107000
+
+Data Parkir 13
+Tipe Kendaraan : motor
+Nomor Polisi   : F 2635 RR
+Lama Parkir    : 123 jam
+Biaya parkir   : Rp.307000
 
