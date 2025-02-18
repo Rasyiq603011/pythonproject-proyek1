@@ -17,7 +17,7 @@ platnomor = input("Masukan plat nomor : ")
 
 
 # hitung biaya
-def biaya_parkir(jenis_kendaraan, lama):
+def biaya_parkir(Tipe, lama):
     biaya = 0 
     if Tipe.lower() == 'motor': 
         biaya = 2000  
