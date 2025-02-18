@@ -1,0 +1,38 @@
+======================= Data Parkir Kendaraan ======================
+
+Data Parkir
+Tipe Kendaraan : Mobil
+Waktu Masuk    : 11.30
+Waktu Keluar   : 12.00
+Biaya parkir   : 12000
+
+Data Parkir
+Tipe Kendaraan : Mobil
+Waktu Masuk    : 11.30
+Waktu Keluar   : 12.00
+Biaya parkir   : 12000
+
+Data Parkir
+Tipe Kendaraan : Mobil
+Waktu Masuk    : 11.30
+Waktu Keluar   : 12.00
+Biaya parkir   : 12000
+
+Data Parkir
+Tipe Kendaraan : Mobil
+Waktu Masuk    : 11.30
+Waktu Keluar   : 12.00
+Biaya parkir   : 12000
+
+Data Parkir
+Tipe Kendaraan : Mobil
+Waktu Masuk    : 11.30
+Waktu Keluar   : 12.00
+Biaya parkir   : 12000
+
+Data Parkir
+Tipe Kendaraan : Mobil
+Nomor Polisi   : 12 dfg 12
+Lama Parkir    : 12
+Biaya parkir   : 12.000
+
