@@ -15,9 +15,32 @@ Tipe = input("Masukan Jenis Kendaraan (Mobil atau Motor) : ")
 lama = input("Lama Masuk : ")
 platnomor = input("Masukan plat nomor : ")
 
+
 # hitung biaya
+def biaya_parkir(jenis_kendaraan, lama):
+    biaya = 0 
+    if Tipe.lower() == 'motor': 
+        biaya = 2000  
+        if lama > 1:
+            biaya += (lama - 1) * 2500  
+    elif Tipe.lower() == 'mobil':
+        biaya = 5000  
+        if lama > 1:
+            biaya += (lama - 1) * 5500
+    elif Tipe.lower() == 'truk':
+        biaya = 7000  
+        if lama > 1:
+            biaya += (lama - 1) * 7500
+    else:
+        return "Jenis kendaraan tidak valid"
+    return biaya
+    
+biaya = biaya_parkir(Tipe, lama)
+print(f"Biaya Parkir: Rp{biaya}")
+
 
 # display
+
 
 # safe data
 def savedata(TipeKendaraan, lamaMasuk, nomorpolisi, harga):
