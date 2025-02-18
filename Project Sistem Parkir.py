@@ -5,7 +5,7 @@
 
 # input data 
 def inputKendaraan():
-    Tipe = input("Masukkan jenis kendaraan(A:Motor, B:Mobil, C:Truk): ")
+    
     return Tipe
 
 def lamaParkir():
@@ -16,23 +16,20 @@ def platKendaraan():
     plat = input("Masukkan plat nomor kendaraan: ")
     return plat
 
-def jenisKendaraan(kendaraan):
-    if Tipe == 'A':
-        print("Kendaraan : Motor")
-    elif Tipe == 'B':
-        print("Kendaraan : Mobil")
-    elif Tipe == 'C':
-        print("Kendaraan : Truk")
-    else:
-        print("Jenis kendaraan tidak valid!")
-    return Tipe
+def jenisKendaraan():
+    cek = True
+    while(cek):
+        kendaraan = input("Masukkan jenis kendaraan(A:Motor, B:Mobil, C:Truk): ")
+        if kendaraan == 'A':
+            print("Kendaraan : Motor")
+        elif kendaraan == 'B':
+            print("Kendaraan : Mobil")
+        elif kendaraan == 'C':
+            print("Kendaraan : Truk")
+        else:
+            print("Jenis kendaraan tidak valid!")
 
-Tipe = inputKendaraan()
-lama = lamaParkir()
-plat = platKendaraan()
-
-jenisKendaraan(Tipe)
-
+    return kendaraan
 
 # hitung biaya
 def biaya_parkir(Tipe, lama):
@@ -52,10 +49,6 @@ def biaya_parkir(Tipe, lama):
     else:
         return "Jenis kendaraan tidak valid"
     return biaya
-    
-biaya = biaya_parkir(Tipe, lama)
-print(f"Biaya Parkir: Rp{biaya}")
-
 
 # display
 def display(Tipe, platnomor, lama, total_biaya):
@@ -77,6 +70,23 @@ def savedata(TipeKendaraan, lamaMasuk, nomorpolisi, harga):
             "\n\n"
             )
     f.close()
+
+run = True
+
+while(True):
+    Tipe = inputKendaraan()
+    lama = lamaParkir()
+    plat = platKendaraan()
+
+    jenisKendaraan(Tipe)
+
+
+    biaya = biaya_parkir(Tipe, lama)
+    print(f"Biaya Parkir: Rp{biaya}")
+
+
+
+
 
 savedata(Tipe, lama, platnomor, "12.000" )
 
