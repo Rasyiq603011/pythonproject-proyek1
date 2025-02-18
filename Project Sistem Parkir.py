@@ -4,16 +4,34 @@
 
 
 # input data 
-# def input():
-#     cek = True
-#     while(cek):
-#         Jenis = input("Masukan Jenis Kendaraan (Mobil atau Motor) : ")
-#         Masuk = input("Waktu Masuk : ")        
-#         Keluar = input("Waktu Keluar : ")
+def inputKendaraan():
+    Tipe = input("Masukkan jenis kendaraan(A:Motor, B:Mobil, C:Truk): ")
+    return Tipe
 
-Tipe = input("Masukan Jenis Kendaraan (Mobil atau Motor) : ")
-lama = input("Lama Masuk : ")
-platnomor = input("Masukan plat nomor : ")
+def lamaParkir():
+    lama =  int(input("Waktu parkir(jam): "))
+    return lama
+    
+def platKendaraan():
+    plat = input("Masukkan plat nomor kendaraan: ")
+    return plat
+
+def jenisKendaraan(kendaraan):
+    if Tipe == 'A':
+        print("Kendaraan : Motor")
+    elif Tipe == 'B':
+        print("Kendaraan : Mobil")
+    elif Tipe == 'C':
+        print("Kendaraan : Truk")
+    else:
+        print("Jenis kendaraan tidak valid!")
+    return Tipe
+
+Tipe = inputKendaraan()
+lama = lamaParkir()
+plat = platKendaraan()
+
+jenisKendaraan(Tipe)
 
 
 # hitung biaya
