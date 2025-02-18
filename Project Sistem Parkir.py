@@ -58,7 +58,12 @@ print(f"Biaya Parkir: Rp{biaya}")
 
 
 # display
-
+def display(Tipe, platnomor, lama, total_biaya):
+    print("Modul Display")
+    print("Jenis Kendaraan  : ", Tipe)
+    print("Nomor Plat       : ", platnomor)  
+    print("Lama Parkir      : ", lama, "jam")
+    print("Total Biaya      : Rp.", total_biaya)
 
 # safe data
 def savedata(TipeKendaraan, lamaMasuk, nomorpolisi, harga):
